@@ -1,7 +1,28 @@
 aid: houst
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/houst.png
 name: Houst
-description: Houst is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Houst is a global short-term rental and Airbnb management company founded in
+  2015, operating in 17 cities across 8 countries and managing over 11,650
+  properties. Houst handles the full hosting lifecycle for homeowners and
+  landlords - multi-platform listing creation and optimization, dynamic pricing,
+  professional photography, 24/7 guest communication and vetting, check-in
+  coordination, cleaning, linen and maintenance - powered by a proprietary host
+  dashboard that tracks earnings, occupancy, bookings and performance. The
+  company operates on a commission model and also runs an operating-partner and
+  affiliate programme. Surfaced as a portfolio company of 500 Global and added
+  to the API Evangelist network; no public developer API is currently published.
 url: https://raw.githubusercontent.com/api-evangelist/houst/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Airbnb Management
+- Short-Term Rental
+- Property Management
+- Vacation Rental
+- Hospitality
+- PropTech
+- Real Estate
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +50,21 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://houst.com
+  url: https://www.houst.com
+- type: Blog
+  url: https://www.houst.com/blog
+- type: Pricing
+  url: https://www.houst.com/pricing
+- type: HelpCenter
+  url: https://www.houst.com/knowledge-base/faq-center
+- type: Login
+  url: https://dashboard.houst.com/?lang=en
+- type: PrivacyPolicy
+  url: https://www.houst.com/privacy-policy
+- type: DomainSecurity
+  url: security/houst-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
