@@ -52,7 +52,7 @@ tags:
 - Vacation Rentals
 - Hospitality
 - PropTech
-- Real-Estate
+- Real Estate
 tags_raw:
 - Company
 - Airbnb Management
@@ -62,6 +62,7 @@ tags_raw:
 - Hospitality
 - PropTech
 - Real Estate
+- Real-Estate
 apis: []
 maintainers:
 - FN: Kin Lane
